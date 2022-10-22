@@ -1,0 +1,27 @@
+{
+  "name": "djlimix/laravel-extended-commands",
+  "description": "A simple package to add more Make: commands to Laravel.",
+  "type": "library",
+  "require": {
+    "php": "^8.1",
+    "illuminate/support": "10.x-dev",
+    "illuminate/console": "10.x-dev"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Djlimix\\LaravelExtendedCommands\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Maximilián Csank",
+      "email": "info@limixmedia.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require-dev": {
+    "laravel/pint": "dev-main",
+    "phpstan/phpstan": "1.9.x-dev"
+  }
+}
