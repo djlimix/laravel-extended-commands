@@ -26,6 +26,6 @@ class ExtendedGeneratorCommand extends GeneratorCommand
      */
     protected function getDefaultNamespace($rootNamespace): string
     {
-        return $rootNamespace . "\{$this->type}s";
+        return $rootNamespace . "\\{$this->type}s";
     }
 }
