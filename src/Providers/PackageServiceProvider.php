@@ -1,15 +1,10 @@
 <?php
 
-declare(strict_types=1);
+namespace Djlimix\LaravelExtendedCommands;
 
-namespace Djlimix\LaravelExtendedCommands\Providers;
-
-use Djlimix\LaravelExtendedCommands\InterfaceMakeCommand;
-use Djlimix\LaravelExtendedCommands\ServiceMakeCommand;
-use Djlimix\LaravelExtendedCommands\TraitMakeCommand;
 use Illuminate\Support\ServiceProvider;
 
-final class PackageServiceProvider extends ServiceProvider
+class PackageServiceProvider extends ServiceProvider
 {
     /**
      * @return void
