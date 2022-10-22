@@ -19,7 +19,7 @@
       "email": "info@limixmedia.com"
     }
   ],
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "require-dev": {
     "laravel/pint": "dev-main",
     "phpstan/phpstan": "1.9.x-dev"
